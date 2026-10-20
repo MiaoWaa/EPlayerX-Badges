@@ -1,0 +1,223 @@
+{
+  "filters": [
+    {
+      "id": "v4-4k",
+      "groupId": "resolution",
+      "name": "4K",
+      "pattern": "(?i)\\b(4k|2160p|uhd)\\b",
+      "imageURL": "https://raw.githubusercontent.com/MiaoWaa/EPlayerX-Badges/main/icons/v4-4k.svg",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "textColor": "#00000000",
+      "tagStyle": "filled",
+      "isEnabled": true,
+      "type": "filter"
+    },
+    {
+      "id": "v4-1080p",
+      "groupId": "resolution",
+      "name": "1080P",
+      "pattern": "(?i)\\b(1080p|fhd)\\b",
+      "imageURL": "https://raw.githubusercontent.com/MiaoWaa/EPlayerX-Badges/main/icons/v4-1080p.svg",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "textColor": "#00000000",
+      "tagStyle": "filled",
+      "isEnabled": true,
+      "type": "filter"
+    },
+    {
+      "id": "v4-720p",
+      "groupId": "resolution",
+      "name": "720P",
+      "pattern": "(?i)\\b720p\\b",
+      "imageURL": "https://raw.githubusercontent.com/MiaoWaa/EPlayerX-Badges/main/icons/v4-720p.svg",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "textColor": "#00000000",
+      "tagStyle": "filled",
+      "isEnabled": true,
+      "type": "filter"
+    },
+    {
+      "id": "v4-dv",
+      "groupId": "video-tech",
+      "name": "DV",
+      "pattern": "(?i)\\b(dolby[ ._-]*vision|dovi|dv)\\b",
+      "imageURL": "https://raw.githubusercontent.com/MiaoWaa/EPlayerX-Badges/main/icons/v4-dv.svg",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "textColor": "#00000000",
+      "tagStyle": "filled",
+      "isEnabled": true,
+      "type": "filter"
+    },
+    {
+      "id": "v4-hdr10plus",
+      "groupId": "video-tech",
+      "name": "HDR10+",
+      "pattern": "(?i)\\bhdr[ ._-]*10\\s*(?:\\+|plus)",
+      "imageURL": "https://raw.githubusercontent.com/MiaoWaa/EPlayerX-Badges/main/icons/v4-hdr10plus.svg",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "textColor": "#00000000",
+      "tagStyle": "filled",
+      "isEnabled": true,
+      "type": "filter"
+    },
+    {
+      "id": "v4-hdr10",
+      "groupId": "video-tech",
+      "name": "HDR10",
+      "pattern": "(?i)\\bhdr[ ._-]*10\\b(?!\\s*(?:\\+|plus))",
+      "imageURL": "https://raw.githubusercontent.com/MiaoWaa/EPlayerX-Badges/main/icons/v4-hdr10.svg",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "textColor": "#00000000",
+      "tagStyle": "filled",
+      "isEnabled": true,
+      "type": "filter"
+    },
+    {
+      "id": "v4-hdr",
+      "groupId": "video-tech",
+      "name": "HDR",
+      "pattern": "(?i)\\bhdr\\b",
+      "imageURL": "https://raw.githubusercontent.com/MiaoWaa/EPlayerX-Badges/main/icons/v4-hdr.svg",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "textColor": "#00000000",
+      "tagStyle": "filled",
+      "isEnabled": true,
+      "type": "filter"
+    },
+    {
+      "id": "v4-atmos",
+      "groupId": "audio-tech",
+      "name": "Atmos",
+      "pattern": "(?i)\\b(atmos|dolby[ ._-]*atmos)\\b",
+      "imageURL": "https://raw.githubusercontent.com/MiaoWaa/EPlayerX-Badges/main/icons/v4-atmos.svg",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "textColor": "#00000000",
+      "tagStyle": "filled",
+      "isEnabled": true,
+      "type": "filter"
+    },
+    {
+      "id": "v4-dts-x",
+      "groupId": "audio-tech",
+      "name": "DTS:X",
+      "pattern": "(?i)\\bdts[ .:_-]*x\\b",
+      "imageURL": "https://raw.githubusercontent.com/MiaoWaa/EPlayerX-Badges/main/icons/v4-dts-x.svg",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "textColor": "#00000000",
+      "tagStyle": "filled",
+      "isEnabled": true,
+      "type": "filter"
+    },
+    {
+      "id": "v4-dts",
+      "groupId": "audio-tech",
+      "name": "DTS",
+      "pattern": "(?i)\\bdts\\b(?![ .:_-]*(?:x|hd))",
+      "imageURL": "https://raw.githubusercontent.com/MiaoWaa/EPlayerX-Badges/main/icons/v4-dts.svg",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "textColor": "#00000000",
+      "tagStyle": "filled",
+      "isEnabled": true,
+      "type": "filter"
+    },
+    {
+      "id": "v4-hevc",
+      "groupId": "video-codec",
+      "name": "HEVC",
+      "pattern": "(?i)\\b(hevc|h[ ._-]?265|x265)\\b",
+      "imageURL": "https://raw.githubusercontent.com/MiaoWaa/EPlayerX-Badges/main/icons/v4-hevc.svg",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "textColor": "#00000000",
+      "tagStyle": "filled",
+      "isEnabled": true,
+      "type": "filter"
+    },
+    {
+      "id": "v4-avc",
+      "groupId": "video-codec",
+      "name": "H264",
+      "pattern": "(?i)\\b(avc|h[ ._-]?264|x264)\\b",
+      "imageURL": "https://raw.githubusercontent.com/MiaoWaa/EPlayerX-Badges/main/icons/v4-avc.svg",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "textColor": "#00000000",
+      "tagStyle": "filled",
+      "isEnabled": true,
+      "type": "filter"
+    },
+    {
+      "id": "v4-webdl",
+      "groupId": "source",
+      "name": "WEB-DL",
+      "pattern": "(?i)\\bweb[ ._-]?dl\\b",
+      "imageURL": "https://raw.githubusercontent.com/MiaoWaa/EPlayerX-Badges/main/icons/v4-webdl.svg",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "textColor": "#00000000",
+      "tagStyle": "filled",
+      "isEnabled": true,
+      "type": "filter"
+    },
+    {
+      "id": "v4-remux",
+      "groupId": "source",
+      "name": "REMUX",
+      "pattern": "(?i)\\bremux\\b",
+      "imageURL": "https://raw.githubusercontent.com/MiaoWaa/EPlayerX-Badges/main/icons/v4-remux.svg",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "textColor": "#00000000",
+      "tagStyle": "filled",
+      "isEnabled": true,
+      "type": "filter"
+    }
+  ],
+  "groups": [
+    {
+      "id": "resolution",
+      "name": "Resolution",
+      "color": "#00000000",
+      "borderColor": "#00000000",
+      "isExpanded": true
+    },
+    {
+      "id": "video-tech",
+      "name": "Video Tech",
+      "color": "#00000000",
+      "borderColor": "#00000000",
+      "isExpanded": true
+    },
+    {
+      "id": "audio-tech",
+      "name": "Audio Tech",
+      "color": "#00000000",
+      "borderColor": "#00000000",
+      "isExpanded": true
+    },
+    {
+      "id": "video-codec",
+      "name": "Video Codec",
+      "color": "#00000000",
+      "borderColor": "#00000000",
+      "isExpanded": true
+    },
+    {
+      "id": "source",
+      "name": "Source",
+      "color": "#00000000",
+      "borderColor": "#00000000",
+      "isExpanded": true
+    }
+  ]
+}
