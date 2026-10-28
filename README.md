@@ -4,7 +4,7 @@
 
 - **彩色版**：保留原有格式分类配色，文字与描边使用对应颜色，底色为同色的 10%；描边不透明度 90%。
 - **白色版**：纯白文字和描边，灰蓝色 `#46566E` 底色，不透明度 10%；描边不透明度 100%。
-- 英文与数字使用 **SF Pro Text Bold**，已转换为 SVG 路径，设备无需安装字体；中文评级使用 iOS 中文系统字体（PingFang SC 等字体回退），保留可显示的中文文字。
+- 英文与数字使用 **SF Pro Text Bold**，已转换为 SVG 路径，设备无需安装字体；中文评级使用 iOS 中文系统字体（PingFang SC 等字体回退），保留中文文字，并使用同色 0.30px 字形描边增强笔画，使视觉粗细更接近英文粗体。
 - 每种配色都提供「推荐评级版」与「无评级版」。两种配色的匹配规则一致，不会随系统主题自动切换。
 
 ## 四个正式导入地址
@@ -48,9 +48,9 @@ https://raw.githubusercontent.com/MiaoWaa/EPlayerX-Badges/main/badges-white-no-r
 
 | 示例 | 实际 SVG |
 | --- | --- |
-| 彩色 · 推荐评级版 | <img src="icons/color-sf10/range-recommend.svg" height="24" alt="推荐"> <img src="icons/color-sf10/v4-4k.svg" height="24" alt="4K"> <img src="icons/color-sf10/v4-dv.svg" height="24" alt="DV"> <img src="icons/color-sf10/v4-atmos.svg" height="24" alt="Atmos"> <img src="icons/color-sf10/v4-remux.svg" height="24" alt="REMUX"> <img src="icons/color-sf10/v5-7-1.svg" height="24" alt="7.1"> |
+| 彩色 · 推荐评级版 | <img src="icons/color-sf10/range-recommend-bold.svg" height="24" alt="推荐"> <img src="icons/color-sf10/v4-4k.svg" height="24" alt="4K"> <img src="icons/color-sf10/v4-dv.svg" height="24" alt="DV"> <img src="icons/color-sf10/v4-atmos.svg" height="24" alt="Atmos"> <img src="icons/color-sf10/v4-remux.svg" height="24" alt="REMUX"> <img src="icons/color-sf10/v5-7-1.svg" height="24" alt="7.1"> |
 | 彩色 · 无评级版 | <img src="icons/color-sf10/v4-4k.svg" height="24" alt="4K"> <img src="icons/color-sf10/v4-dv.svg" height="24" alt="DV"> <img src="icons/color-sf10/v4-atmos.svg" height="24" alt="Atmos"> <img src="icons/color-sf10/v4-remux.svg" height="24" alt="REMUX"> <img src="icons/color-sf10/v5-7-1.svg" height="24" alt="7.1"> |
-| 白色 · 推荐评级版 | <img src="icons/white-sf10/range-recommend.svg" height="24" alt="推荐"> <img src="icons/white-sf10/v4-4k.svg" height="24" alt="4K"> <img src="icons/white-sf10/v4-dv.svg" height="24" alt="DV"> <img src="icons/white-sf10/v4-atmos.svg" height="24" alt="Atmos"> <img src="icons/white-sf10/v4-remux.svg" height="24" alt="REMUX"> <img src="icons/white-sf10/v5-7-1.svg" height="24" alt="7.1"> |
+| 白色 · 推荐评级版 | <img src="icons/white-sf10/range-recommend-bold.svg" height="24" alt="推荐"> <img src="icons/white-sf10/v4-4k.svg" height="24" alt="4K"> <img src="icons/white-sf10/v4-dv.svg" height="24" alt="DV"> <img src="icons/white-sf10/v4-atmos.svg" height="24" alt="Atmos"> <img src="icons/white-sf10/v4-remux.svg" height="24" alt="REMUX"> <img src="icons/white-sf10/v5-7-1.svg" height="24" alt="7.1"> |
 | 白色 · 无评级版 | <img src="icons/white-sf10/v4-4k.svg" height="24" alt="4K"> <img src="icons/white-sf10/v4-dv.svg" height="24" alt="DV"> <img src="icons/white-sf10/v4-atmos.svg" height="24" alt="Atmos"> <img src="icons/white-sf10/v4-remux.svg" height="24" alt="REMUX"> <img src="icons/white-sf10/v5-7-1.svg" height="24" alt="7.1"> |
 
 上方完整预览使用深色底，方便观察白色版。底色为半透明叠加，外观会受页面背景影响，文字与描边本身使用固定颜色。
@@ -106,8 +106,8 @@ badges-recommend-regex-v2.json   # 彩色 · 推荐评级版
 badges-no-rating.json           # 彩色 · 无评级版
 badges-white-recommend.json     # 白色 · 推荐评级版
 badges-white-no-rating.json     # 白色 · 无评级版
-icons/color-sf10/               # 彩色正式素材，24 个 SVG
-icons/white-sf10/               # 白色正式素材，24 个 SVG
+icons/color-sf10/               # 彩色正式素材，正式使用 24 个 SVG；旧评级素材保留兼容
+icons/white-sf10/               # 白色正式素材，正式使用 24 个 SVG；旧评级素材保留兼容
 previews/official-badges.svg    # 实际素材组合预览
 ```
 
