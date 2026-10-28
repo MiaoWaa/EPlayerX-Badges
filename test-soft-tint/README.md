@@ -14,3 +14,9 @@ https://raw.githubusercontent.com/MiaoWaa/EPlayerX-Badges/main/test-soft-tint/ba
 测试时先停用原配置，再启用此配置，避免重复显示。恢复时停用本测试配置，重新启用原配置即可。
 
 此目录可在测试完成后整体删除。实际 SVG 加载与显示效果待 EPlayerX 实机确认。
+
+## B 字体上机测试
+
+当前测试配置已切换到 SF Pro Text Bold（B 方案），文字转为 SVG 路径，设备无需安装字体。新图片在 `icons-sf-pro/`，旧的淡彩底字体素材保留在 `icons/` 便于比较。
+
+保留 22px 高度、原有宽度、粗体、18% 淡彩底、1.4px 描边（90%）与 6px 圆角。仅修改测试目录，正式版不变。导入地址不变，更新/重新导入测试配置即可加载新图片。
