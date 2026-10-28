@@ -1,117 +1,114 @@
-# EPlayerX 资源徽章 · 双版本
+# EPlayerX 资源徽章 · 彩色 / 白色正式版
 
-为 EPlayerX 定制的**彩色描边 SVG 资源徽章**。两版视觉统一、规则共用，只在是否显示动态范围推荐评级上有所区别。
+两套配色、四份正式配置。统一使用 **10% 半透明底色、1.4px 描边、6px 圆角、22px 高度**。
 
-> 本仓库仅维护 **2 个正式配置**，无实验版。图标均来自仓库的 `icons/` 目录。
+- **彩色版**：保留原有格式分类配色，文字与描边使用对应颜色，底色为同色的 10%；描边不透明度 90%。
+- **白色版**：纯白文字和描边，灰蓝色 `#46566E` 底色，不透明度 10%；描边不透明度 100%。
+- 英文与数字使用 **SF Pro Text Bold**，已转换为 SVG 路径，设备无需安装字体；中文评级使用 iOS 中文系统字体（PingFang SC 等字体回退），保留可显示的中文文字。
+- 每种配色都提供「推荐评级版」与「无评级版」。两种配色的匹配规则一致，不会随系统主题自动切换。
 
-## 选择版本
+## 四个正式导入地址
 
-| | ⭐ 推荐评级版 | ✨ 纯净无评级版 |
-| --- | --- | --- |
-| 规则数量 | **24** | **21** |
-| 推荐 / 良好 / 普通 | 显示 | **不显示** |
-| 分辨率、HDR、音频、片源、声道 | 支持 | 支持 |
-| 风格 | 彩色描边、透明背景 | 彩色描边、透明背景 |
-| 适合 | 希望快速辨认动态范围等级 | 喜欢简洁、只看客观格式信息 |
-| 配置文件 | [badges-recommend-regex-v2.json](badges-recommend-regex-v2.json) | [badges-no-rating.json](badges-no-rating.json) |
+| 配色 / 版本 | 规则数 | 配置 |
+| --- | ---: | --- |
+| 彩色 · 推荐评级版 | 24 | [打开 JSON](https://raw.githubusercontent.com/MiaoWaa/EPlayerX-Badges/main/badges-recommend-regex-v2.json) |
+| 彩色 · 无评级版 | 21 | [打开 JSON](https://raw.githubusercontent.com/MiaoWaa/EPlayerX-Badges/main/badges-no-rating.json) |
+| 白色 · 推荐评级版 | 24 | [打开 JSON](https://raw.githubusercontent.com/MiaoWaa/EPlayerX-Badges/main/badges-white-recommend.json) |
+| 白色 · 无评级版 | 21 | [打开 JSON](https://raw.githubusercontent.com/MiaoWaa/EPlayerX-Badges/main/badges-white-no-rating.json) |
 
-### 导入地址
-
-**① 推荐评级版（原正式版，地址保持不变）**
+**彩色 · 推荐评级版（兼容原地址）**
 
 ```text
 https://raw.githubusercontent.com/MiaoWaa/EPlayerX-Badges/main/badges-recommend-regex-v2.json
 ```
 
-[直接打开评级版 JSON](https://raw.githubusercontent.com/MiaoWaa/EPlayerX-Badges/main/badges-recommend-regex-v2.json)
-
-**② 纯净无评级版（新正式版）**
+**彩色 · 无评级版（兼容原地址）**
 
 ```text
 https://raw.githubusercontent.com/MiaoWaa/EPlayerX-Badges/main/badges-no-rating.json
 ```
 
-[直接打开无评级版 JSON](https://raw.githubusercontent.com/MiaoWaa/EPlayerX-Badges/main/badges-no-rating.json)
+**白色 · 推荐评级版**
 
-> 为兼容已导入的旧地址，评级版沿用原文件名 `badges-recommend-regex-v2.json`，不另建同内容的第三份配置。
+```text
+https://raw.githubusercontent.com/MiaoWaa/EPlayerX-Badges/main/badges-white-recommend.json
+```
 
-## 双版本实际徽章预览
+**白色 · 无评级版**
 
-下列图标均直接引用仓库实际 SVG 文件；组合为说明示例，实际显示由资源名称、匹配结果及 EPlayerX 页面布局决定。
+```text
+https://raw.githubusercontent.com/MiaoWaa/EPlayerX-Badges/main/badges-white-no-rating.json
+```
 
-| 版本 / 示例 | 徽章组合 |
+## 实际素材预览
+
+下图由正式版 SVG 直接组合，展示两套完整素材；实际徽章数量、顺序与大小由资源文本、匹配结果和 EPlayerX 页面布局决定。
+
+![两套正式徽章完整预览](previews/official-badges.svg)
+
+| 示例 | 实际 SVG |
 | --- | --- |
-| 推荐评级版 | <img src="icons/range-recommend.svg" alt="range-recommend" height="24"> <img src="icons/v4-4k.svg" alt="v4-4k" height="24"> <img src="icons/v4-dv.svg" alt="v4-dv" height="24"> <img src="icons/v4-atmos.svg" alt="v4-atmos" height="24"> <img src="icons/v4-remux.svg" alt="v4-remux" height="24"> <img src="icons/v5-7-1.svg" alt="v5-7-1" height="24"> |
-| 纯净无评级版 | <img src="icons/v4-4k.svg" alt="v4-4k" height="24"> <img src="icons/v4-dv.svg" alt="v4-dv" height="24"> <img src="icons/v4-atmos.svg" alt="v4-atmos" height="24"> <img src="icons/v4-remux.svg" alt="v4-remux" height="24"> <img src="icons/v5-7-1.svg" alt="v5-7-1" height="24"> |
-| HDR10 资源 · 推荐评级版 | <img src="icons/range-good.svg" alt="range-good" height="24"> <img src="icons/v4-4k.svg" alt="v4-4k" height="24"> <img src="icons/v4-hdr10.svg" alt="v4-hdr10" height="24"> <img src="icons/v4-dts-x.svg" alt="v4-dts-x" height="24"> <img src="icons/v5-7-1.svg" alt="v5-7-1" height="24"> |
-| HDR10 资源 · 纯净无评级版 | <img src="icons/v4-4k.svg" alt="v4-4k" height="24"> <img src="icons/v4-hdr10.svg" alt="v4-hdr10" height="24"> <img src="icons/v4-dts-x.svg" alt="v4-dts-x" height="24"> <img src="icons/v5-7-1.svg" alt="v5-7-1" height="24"> |
+| 彩色 · 推荐评级版 | <img src="icons/color-sf10/range-recommend.svg" height="24" alt="推荐"> <img src="icons/color-sf10/v4-4k.svg" height="24" alt="4K"> <img src="icons/color-sf10/v4-dv.svg" height="24" alt="DV"> <img src="icons/color-sf10/v4-atmos.svg" height="24" alt="Atmos"> <img src="icons/color-sf10/v4-remux.svg" height="24" alt="REMUX"> <img src="icons/color-sf10/v5-7-1.svg" height="24" alt="7.1"> |
+| 彩色 · 无评级版 | <img src="icons/color-sf10/v4-4k.svg" height="24" alt="4K"> <img src="icons/color-sf10/v4-dv.svg" height="24" alt="DV"> <img src="icons/color-sf10/v4-atmos.svg" height="24" alt="Atmos"> <img src="icons/color-sf10/v4-remux.svg" height="24" alt="REMUX"> <img src="icons/color-sf10/v5-7-1.svg" height="24" alt="7.1"> |
+| 白色 · 推荐评级版 | <img src="icons/white-sf10/range-recommend.svg" height="24" alt="推荐"> <img src="icons/white-sf10/v4-4k.svg" height="24" alt="4K"> <img src="icons/white-sf10/v4-dv.svg" height="24" alt="DV"> <img src="icons/white-sf10/v4-atmos.svg" height="24" alt="Atmos"> <img src="icons/white-sf10/v4-remux.svg" height="24" alt="REMUX"> <img src="icons/white-sf10/v5-7-1.svg" height="24" alt="7.1"> |
+| 白色 · 无评级版 | <img src="icons/white-sf10/v4-4k.svg" height="24" alt="4K"> <img src="icons/white-sf10/v4-dv.svg" height="24" alt="DV"> <img src="icons/white-sf10/v4-atmos.svg" height="24" alt="Atmos"> <img src="icons/white-sf10/v4-remux.svg" height="24" alt="REMUX"> <img src="icons/white-sf10/v5-7-1.svg" height="24" alt="7.1"> |
 
-### 全部徽章素材
+上方完整预览使用深色底，方便观察白色版。底色为半透明叠加，外观会受页面背景影响，文字与描边本身使用固定颜色。
 
-| 分类 | 实际 SVG 预览 |
+## 安装与切换
+
+1. 在 EPlayerX 设置中找到资源徽章的自定义 JSON 配置入口。
+2. 粘贴所选版本的完整 Raw 地址并启用。
+3. **四份正式配置只启用一份**；切换前停用其他正式版、测试版或第三方徽章配置，避免重复显示。
+4. 更新后刷新配置；若仍显示旧图，重新导入。新的正式图标路径与测试版、旧版不同。
+
+不同 EPlayerX 版本的设置入口可能有差异。JSON 和图片均需能访问 `raw.githubusercontent.com`。当前测试目录继续保留，供对比使用，不属于四份正式配置。
+
+## 支持的规则与评级含义
+
+两种配色均包含相同的 **21 条客观信息规则**：
+
+- 分辨率（3）：4K、1080P、720P。
+- 动态范围（4）：DV、HDR10+、HDR10、HDR。
+- 音频格式（10）：Atmos、DTS:X、DTS、TrueHD、DD+、AC3、DTS-HD MA、DTS-HD、AAC、FLAC。
+- 片源（2）：WEB-DL、REMUX。
+- 声道（2）：5.1、7.1。
+
+推荐评级版另含 **3 条动态范围提示规则**：
+
+| 提示 | 匹配依据 |
 | --- | --- |
-| 推荐等级（仅评级版） | <img src="icons/range-recommend.svg" alt="range-recommend" height="24"> <img src="icons/range-good.svg" alt="range-good" height="24"> <img src="icons/range-standard.svg" alt="range-standard" height="24"> |
-| 分辨率 | <img src="icons/v4-4k.svg" alt="v4-4k" height="24"> <img src="icons/v4-1080p.svg" alt="v4-1080p" height="24"> <img src="icons/v4-720p.svg" alt="v4-720p" height="24"> |
-| 动态范围 | <img src="icons/v4-dv.svg" alt="v4-dv" height="24"> <img src="icons/v4-hdr10plus.svg" alt="v4-hdr10plus" height="24"> <img src="icons/v4-hdr10.svg" alt="v4-hdr10" height="24"> <img src="icons/v4-hdr.svg" alt="v4-hdr" height="24"> |
-| 音频格式 | <img src="icons/v4-atmos.svg" alt="v4-atmos" height="24"> <img src="icons/v4-dts-x.svg" alt="v4-dts-x" height="24"> <img src="icons/v4-dts.svg" alt="v4-dts" height="24"> <img src="icons/v5-truehd.svg" alt="v5-truehd" height="24"> <img src="icons/v5-ddp.svg" alt="v5-ddp" height="24"> <img src="icons/v5-ac3.svg" alt="v5-ac3" height="24"> <img src="icons/v5-dtshdma.svg" alt="v5-dtshdma" height="24"> <img src="icons/v5-dtshd.svg" alt="v5-dtshd" height="24"> <img src="icons/v5-aac.svg" alt="v5-aac" height="24"> <img src="icons/v5-flac.svg" alt="v5-flac" height="24"> |
-| 片源 | <img src="icons/v4-webdl.svg" alt="v4-webdl" height="24"> <img src="icons/v4-remux.svg" alt="v4-remux" height="24"> |
-| 声道 | <img src="icons/v5-5-1.svg" alt="v5-5-1" height="24"> <img src="icons/v5-7-1.svg" alt="v5-7-1" height="24"> |
+| 推荐 | DV / DoVi / Dolby Vision，或 HDR10+ |
+| 良好 | HDR10 / HDR，且未命中上述标记 |
+| 普通 | 明确标注 SDR，且未命中 HDR / DV |
 
-## 安装方法
+这些提示只反映文本中的动态范围标记，**不是码率、清晰度、压制质量或实际观感的综合评分**；SDR 不等于低画质。没有可识别的动态范围信息时不强制显示评级。无评级版真正移除了评级分组和三条规则，仍保留 DV、HDR 等格式信息。
 
-1. 在 EPlayerX 设置中找到**资源徽章**相关选项。
-2. 添加自定义 JSON 配置，粘贴上方所选版本的完整 Raw 链接。
-3. 启用该配置，进入资源详情或预览页查看效果。
-4. **建议只启用两版中的一版**，避免重复出现相同的格式徽章。其他第三方配置也可能造成重复。
-
-不同 EPlayerX 版本的设置入口可能略有区别。加载配置和图片需要能够访问 `raw.githubusercontent.com`。
-
-## 规则与区别
-
-两版均包含以下 **21 条客观信息匹配规则**：
-
-- **分辨率（3）**：4K、1080P、720P。
-- **动态范围（4）**：DV、HDR10+、HDR10、HDR。
-- **音频格式（10）**：Atmos、DTS:X、DTS、TrueHD、DD+、AC3、DTS-HD MA、DTS-HD、AAC、FLAC。
-- **片源（2）**：WEB-DL、REMUX。
-- **声道（2）**：5.1、7.1。
-
-**仅推荐评级版**另外包含 3 条动态范围提示规则：
-
-| 提示 | 匹配依据 | 备注 |
-| --- | --- | --- |
-| <img src="icons/range-recommend.svg" alt="range-recommend" height="24"> | DV / Dolby Vision 或 HDR10+ | 仅表示匹配到这些动态范围标记 |
-| <img src="icons/range-good.svg" alt="range-good" height="24"> | HDR10 / HDR，且未命中上述标记 | 不代表片源质量保证 |
-| <img src="icons/range-standard.svg" alt="range-standard" height="24"> | 明确标注 SDR，且未命中 HDR / DV | 不代表视频一定低画质 |
-
-如果没有可识别的动态范围信息，评级版也不会强制显示等级。**这些提示不是码率、清晰度、压制质量或实际观感的综合评分。**
-
-无评级版已从 JSON 中**真正移除**评级分组与 3 条规则，不是仅仅隐藏图标；因此不会生成「推荐 / 良好 / 普通」标签。
+彩色版沿用原有分类：蓝/青绿用于分辨率，紫色用于 DV，金黄用于 HDR 系列，橙色用于 Dolby 音频，粉色用于 DTS 系列，绿色用于 AAC/FLAC，灰蓝用于片源与声道。颜色不构成统一的画质评级。
 
 ## 常见问题
 
-**为什么有的徽章不显示？** 规则通过正则匹配 EPlayerX 提供的资源文本；若没有对应关键字或字段写法不同，就可能不显示。
+**为什么没有某个徽章？** 配置使用正则匹配 EPlayerX 提供的资源文本，没有相应关键字或写法不同可能不显示，不等同于媒体流实际检测。
 
-**为什么无评级版还有 DV、HDR10？** DV / HDR10 是客观动态范围格式标签，不属于「推荐 / 良好 / 普通」评级体系。
+**为什么重复显示？** 检查是否同时启用了多份配置，尤其是先前导入的测试版。
 
-**为什么同一资源出现重复标签？** 请检查是否同时启用了两个版本或其他资源徽章配置。
+**为什么白色版不自动变为深色文字？** 当前 SVG 使用固定文字和描边颜色；半透明底色透出页面背景不代表自动主题切换。浅色背景的深色文字方案仍在 `test-light-sf-pro/` 中测试。
 
-**为什么预览和实际资源显示不同？** 示例用于展示视觉效果；实际结果由媒体文本信息和 EPlayerX 的布局决定。
+**为什么保留旧文件名和图标？** 原有彩色版配置地址继续可用；旧 `icons/` 根目录素材和测试目录保留兼容，新正式配置统一引用 `icons/color-sf10/` 或 `icons/white-sf10/`。
 
-**为什么仍叫 recommend-regex-v2？** 这是原正式版文件名，为保持旧导入链接可用而保留。README 中统一称为「推荐评级版」。
+**暂不支持什么？** 不含 H.264、HEVC 等编码徽章；不承诺识别真实编码或设备播放能力。
 
-**不支持什么？** 目前不包含 H.264、HEVC 等编码徽章；也不承诺准确识别文件的真实编码或播放能力。
-
-## 项目结构
+## 目录
 
 ```text
-.
-├── README.md
-├── badges-recommend-regex-v2.json   # 推荐评级版：24 条规则（兼容旧链接）
-├── badges-no-rating.json            # 纯净无评级版：21 条规则
-└── icons/                          # 两版共用的 24 个 SVG 素材
+README.md
+badges-recommend-regex-v2.json   # 彩色 · 推荐评级版
+badges-no-rating.json           # 彩色 · 无评级版
+badges-white-recommend.json     # 白色 · 推荐评级版
+badges-white-no-rating.json     # 白色 · 无评级版
+icons/color-sf10/               # 彩色正式素材，24 个 SVG
+icons/white-sf10/               # 白色正式素材，24 个 SVG
+previews/official-badges.svg    # 实际素材组合预览
 ```
 
-## 声明
-
-本项目是个人维护的 EPlayerX 自定义徽章配置，**非 EPlayerX 官方项目**。格式识别依赖文本匹配，不等同于媒体流实际检测。
+本项目为个人维护的 EPlayerX 自定义徽章配置，**非 EPlayerX 官方项目**。
