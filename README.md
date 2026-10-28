@@ -1,4 +1,4 @@
-# EPlayerX 资源徽章 · 彩色 / 白色正式版
+# EPlayerX 资源徽章 · 彩色 / 白色正式版 · Ai神力制作
 
 两套配色、四份正式配置。统一使用 **10% 半透明底色、1.4px 描边、6px 圆角、22px 高度**。
 
@@ -62,7 +62,7 @@ https://raw.githubusercontent.com/MiaoWaa/EPlayerX-Badges/main/badges-white-no-r
 3. **四份正式配置只启用一份**；切换前停用其他正式版、测试版或第三方徽章配置，避免重复显示。
 4. 更新后刷新配置；若仍显示旧图，重新导入。新的正式图标路径与测试版、旧版不同。
 
-不同 EPlayerX 版本的设置入口可能有差异。JSON 和图片均需能访问 `raw.githubusercontent.com`。当前测试目录继续保留，供对比使用，不属于四份正式配置。
+不同 EPlayerX 版本的设置入口可能有差异。JSON 和图片均需能访问 `raw.githubusercontent.com`。仓库只保留四份正式配置、正在使用的图标与预览；测试目录和未使用的旧素材已清理。
 
 ## 支持的规则与评级含义
 
@@ -92,9 +92,9 @@ https://raw.githubusercontent.com/MiaoWaa/EPlayerX-Badges/main/badges-white-no-r
 
 **为什么重复显示？** 检查是否同时启用了多份配置，尤其是先前导入的测试版。
 
-**为什么白色版不自动变为深色文字？** 当前 SVG 使用固定文字和描边颜色；半透明底色透出页面背景不代表自动主题切换。浅色背景的深色文字方案仍在 `test-light-sf-pro/` 中测试。
+**为什么白色版不自动变为深色文字？** 当前 SVG 使用固定文字和描边颜色；半透明底色透出页面背景不代表自动主题切换。白色版使用固定的白色文字；请根据实际背景选择合适配色。
 
-**为什么保留旧文件名和图标？** 原有彩色版配置地址继续可用；旧 `icons/` 根目录素材、旧白色正式素材 `icons/white-sf10/` 和测试目录保留兼容，新正式配置统一引用 `icons/color-sf10/` 或 `icons/white-gray10/`。
+**为什么保留原配置文件名？** 为兼容已导入的彩色版地址，继续使用原文件名。四份正式配置仅引用 `icons/color-sf10/` 或 `icons/white-gray10/` 中正在使用的素材。测试版配置已移除，请改用上方四个正式地址之一。
 
 **暂不支持什么？** 不含 H.264、HEVC 等编码徽章；不承诺识别真实编码或设备播放能力。
 
@@ -106,8 +106,8 @@ badges-recommend-regex-v2.json   # 彩色 · 推荐评级版
 badges-no-rating.json           # 彩色 · 无评级版
 badges-white-recommend.json     # 白色 · 推荐评级版
 badges-white-no-rating.json     # 白色 · 无评级版
-icons/color-sf10/               # 彩色正式素材，正式使用 24 个 SVG；旧评级素材保留兼容
-icons/white-gray10/               # 白色正式素材，24 个 SVG；旧白色素材保留兼容
+icons/color-sf10/               # 彩色正式素材，24 个 SVG
+icons/white-gray10/             # 白色正式素材，24 个 SVG
 previews/official-badges.svg    # 实际素材组合预览
 ```
 
