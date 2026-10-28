@@ -3,7 +3,7 @@
 两套配色、四份正式配置。统一使用 **10% 半透明底色、1.4px 描边、6px 圆角、22px 高度**。
 
 - **彩色版**：保留原有格式分类配色，文字与描边使用对应颜色，底色为同色的 10%；描边不透明度 90%。
-- **白色版**：纯白文字和描边，灰蓝色 `#46566E` 底色，不透明度 10%；描边不透明度 100%。
+- **白色版**：纯白文字和描边，深灰色 `#333333` 底色，不透明度 10%；描边不透明度 100%。
 - 英文与数字使用 **SF Pro Text Bold**，已转换为 SVG 路径，设备无需安装字体；中文评级使用 iOS 中文系统字体（PingFang SC 等字体回退），保留中文文字，并使用同色 0.30px 字形描边增强笔画，使视觉粗细更接近英文粗体。
 - 每种配色都提供「推荐评级版」与「无评级版」。两种配色的匹配规则一致，不会随系统主题自动切换。
 
@@ -50,8 +50,8 @@ https://raw.githubusercontent.com/MiaoWaa/EPlayerX-Badges/main/badges-white-no-r
 | --- | --- |
 | 彩色 · 推荐评级版 | <img src="icons/color-sf10/range-recommend-bold.svg" height="24" alt="推荐"> <img src="icons/color-sf10/v4-4k.svg" height="24" alt="4K"> <img src="icons/color-sf10/v4-dv.svg" height="24" alt="DV"> <img src="icons/color-sf10/v4-atmos.svg" height="24" alt="Atmos"> <img src="icons/color-sf10/v4-remux.svg" height="24" alt="REMUX"> <img src="icons/color-sf10/v5-7-1.svg" height="24" alt="7.1"> |
 | 彩色 · 无评级版 | <img src="icons/color-sf10/v4-4k.svg" height="24" alt="4K"> <img src="icons/color-sf10/v4-dv.svg" height="24" alt="DV"> <img src="icons/color-sf10/v4-atmos.svg" height="24" alt="Atmos"> <img src="icons/color-sf10/v4-remux.svg" height="24" alt="REMUX"> <img src="icons/color-sf10/v5-7-1.svg" height="24" alt="7.1"> |
-| 白色 · 推荐评级版 | <img src="icons/white-sf10/range-recommend-bold.svg" height="24" alt="推荐"> <img src="icons/white-sf10/v4-4k.svg" height="24" alt="4K"> <img src="icons/white-sf10/v4-dv.svg" height="24" alt="DV"> <img src="icons/white-sf10/v4-atmos.svg" height="24" alt="Atmos"> <img src="icons/white-sf10/v4-remux.svg" height="24" alt="REMUX"> <img src="icons/white-sf10/v5-7-1.svg" height="24" alt="7.1"> |
-| 白色 · 无评级版 | <img src="icons/white-sf10/v4-4k.svg" height="24" alt="4K"> <img src="icons/white-sf10/v4-dv.svg" height="24" alt="DV"> <img src="icons/white-sf10/v4-atmos.svg" height="24" alt="Atmos"> <img src="icons/white-sf10/v4-remux.svg" height="24" alt="REMUX"> <img src="icons/white-sf10/v5-7-1.svg" height="24" alt="7.1"> |
+| 白色 · 推荐评级版 | <img src="icons/white-gray10/range-recommend-bold.svg" height="24" alt="推荐"> <img src="icons/white-gray10/v4-4k.svg" height="24" alt="4K"> <img src="icons/white-gray10/v4-dv.svg" height="24" alt="DV"> <img src="icons/white-gray10/v4-atmos.svg" height="24" alt="Atmos"> <img src="icons/white-gray10/v4-remux.svg" height="24" alt="REMUX"> <img src="icons/white-gray10/v5-7-1.svg" height="24" alt="7.1"> |
+| 白色 · 无评级版 | <img src="icons/white-gray10/v4-4k.svg" height="24" alt="4K"> <img src="icons/white-gray10/v4-dv.svg" height="24" alt="DV"> <img src="icons/white-gray10/v4-atmos.svg" height="24" alt="Atmos"> <img src="icons/white-gray10/v4-remux.svg" height="24" alt="REMUX"> <img src="icons/white-gray10/v5-7-1.svg" height="24" alt="7.1"> |
 
 上方完整预览使用深色底，方便观察白色版。底色为半透明叠加，外观会受页面背景影响，文字与描边本身使用固定颜色。
 
@@ -94,7 +94,7 @@ https://raw.githubusercontent.com/MiaoWaa/EPlayerX-Badges/main/badges-white-no-r
 
 **为什么白色版不自动变为深色文字？** 当前 SVG 使用固定文字和描边颜色；半透明底色透出页面背景不代表自动主题切换。浅色背景的深色文字方案仍在 `test-light-sf-pro/` 中测试。
 
-**为什么保留旧文件名和图标？** 原有彩色版配置地址继续可用；旧 `icons/` 根目录素材和测试目录保留兼容，新正式配置统一引用 `icons/color-sf10/` 或 `icons/white-sf10/`。
+**为什么保留旧文件名和图标？** 原有彩色版配置地址继续可用；旧 `icons/` 根目录素材、旧白色正式素材 `icons/white-sf10/` 和测试目录保留兼容，新正式配置统一引用 `icons/color-sf10/` 或 `icons/white-gray10/`。
 
 **暂不支持什么？** 不含 H.264、HEVC 等编码徽章；不承诺识别真实编码或设备播放能力。
 
@@ -107,7 +107,7 @@ badges-no-rating.json           # 彩色 · 无评级版
 badges-white-recommend.json     # 白色 · 推荐评级版
 badges-white-no-rating.json     # 白色 · 无评级版
 icons/color-sf10/               # 彩色正式素材，正式使用 24 个 SVG；旧评级素材保留兼容
-icons/white-sf10/               # 白色正式素材，正式使用 24 个 SVG；旧评级素材保留兼容
+icons/white-gray10/               # 白色正式素材，24 个 SVG；旧白色素材保留兼容
 previews/official-badges.svg    # 实际素材组合预览
 ```
 
