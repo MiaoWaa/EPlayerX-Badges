@@ -3,8 +3,8 @@
 两套配色、四份正式配置。统一使用 **10% 半透明底色、1.4px 描边、6px 圆角、22px 高度**。
 
 - **彩色版**：保留原有格式分类配色，文字与描边使用对应颜色，底色为同色的 10%；描边不透明度 90%。
-- **白色版**：纯白文字和描边，深灰色 `#333333` 底色，不透明度 10%；描边不透明度 100%。
-- 英文与数字使用 **SF Pro Text Bold**，已转换为 SVG 路径，设备无需安装字体；中文评级使用 iOS 中文系统字体（PingFang SC 等字体回退），保留中文文字，并使用同色 0.30px 字形描边增强笔画，使视觉粗细更接近英文粗体。
+- **白色版**：透明背景、深灰色边框，英文数字为白色文字并带细轮廓；中文评级采用 500 中等字重、无文字描边。
+- 英文与数字使用 **SF Pro Text Bold**，已转换为 SVG 路径，设备无需安装字体；中文评级使用 iOS 中文系统字体（PingFang SC 等字体回退）；白色版中文评级为 500 中等字重、12.5px，无额外描边。
 - 每种配色都提供「推荐评级版」与「无评级版」。两种配色的匹配规则一致，不会随系统主题自动切换。
 
 ## 四个正式导入地址
@@ -50,10 +50,10 @@ https://raw.githubusercontent.com/MiaoWaa/EPlayerX-Badges/main/badges-white-no-r
 | --- | --- |
 | 彩色 · 推荐评级版 | <img src="icons/color-sf10/range-recommend-bold.svg" height="24" alt="推荐"> <img src="icons/color-sf10/v4-4k.svg" height="24" alt="4K"> <img src="icons/color-sf10/v4-dv.svg" height="24" alt="DV"> <img src="icons/color-sf10/v4-atmos.svg" height="24" alt="Atmos"> <img src="icons/color-sf10/v4-remux.svg" height="24" alt="REMUX"> <img src="icons/color-sf10/v5-7-1.svg" height="24" alt="7.1"> |
 | 彩色 · 无评级版 | <img src="icons/color-sf10/v4-4k.svg" height="24" alt="4K"> <img src="icons/color-sf10/v4-dv.svg" height="24" alt="DV"> <img src="icons/color-sf10/v4-atmos.svg" height="24" alt="Atmos"> <img src="icons/color-sf10/v4-remux.svg" height="24" alt="REMUX"> <img src="icons/color-sf10/v5-7-1.svg" height="24" alt="7.1"> |
-| 白色 · 推荐评级版 | <img src="icons/white-gray10/range-recommend-bold.svg" height="24" alt="推荐"> <img src="icons/white-gray10/v4-4k.svg" height="24" alt="4K"> <img src="icons/white-gray10/v4-dv.svg" height="24" alt="DV"> <img src="icons/white-gray10/v4-atmos.svg" height="24" alt="Atmos"> <img src="icons/white-gray10/v4-remux.svg" height="24" alt="REMUX"> <img src="icons/white-gray10/v5-7-1.svg" height="24" alt="7.1"> |
-| 白色 · 无评级版 | <img src="icons/white-gray10/v4-4k.svg" height="24" alt="4K"> <img src="icons/white-gray10/v4-dv.svg" height="24" alt="DV"> <img src="icons/white-gray10/v4-atmos.svg" height="24" alt="Atmos"> <img src="icons/white-gray10/v4-remux.svg" height="24" alt="REMUX"> <img src="icons/white-gray10/v5-7-1.svg" height="24" alt="7.1"> |
+| 白色 · 推荐评级版 | <img src="icons/white-transparent-v2/range-recommend-bold.svg" height="24" alt="推荐"> <img src="icons/white-transparent-v2/v4-4k.svg" height="24" alt="4K"> <img src="icons/white-transparent-v2/v4-dv.svg" height="24" alt="DV"> <img src="icons/white-transparent-v2/v4-atmos.svg" height="24" alt="Atmos"> <img src="icons/white-transparent-v2/v4-remux.svg" height="24" alt="REMUX"> <img src="icons/white-transparent-v2/v5-7-1.svg" height="24" alt="7.1"> |
+| 白色 · 无评级版 | <img src="icons/white-transparent-v2/v4-4k.svg" height="24" alt="4K"> <img src="icons/white-transparent-v2/v4-dv.svg" height="24" alt="DV"> <img src="icons/white-transparent-v2/v4-atmos.svg" height="24" alt="Atmos"> <img src="icons/white-transparent-v2/v4-remux.svg" height="24" alt="REMUX"> <img src="icons/white-transparent-v2/v5-7-1.svg" height="24" alt="7.1"> |
 
-上方完整预览使用深色底，方便观察白色版。底色为半透明叠加，外观会受页面背景影响，文字与描边本身使用固定颜色。
+上方完整预览使用深色底。白色正式版采用透明背景和深灰边框；白色文字仍为固定颜色，并非所有页面都能自动随主题切换。
 
 ## 安装与切换
 
@@ -92,9 +92,9 @@ https://raw.githubusercontent.com/MiaoWaa/EPlayerX-Badges/main/badges-white-no-r
 
 **为什么重复显示？** 检查是否同时启用了多份配置，尤其是先前导入的测试版。
 
-**为什么白色版不自动变为深色文字？** 当前 SVG 使用固定文字和描边颜色；半透明底色透出页面背景不代表自动主题切换。白色版使用固定的白色文字；请根据实际背景选择合适配色。
+**为什么白色版在部分浅色页面仍可能不够清楚？** SVG 的白色文字为固定颜色；新版通过深灰边框和英文字形轮廓改善对比度，但中文评级不加描边以保证清晰。具体显示仍取决于 EPlayerX 的页面渲染。
 
-**为什么保留原配置文件名？** 为兼容已导入的彩色版地址，继续使用原文件名。四份正式配置仅引用 `icons/color-sf10/` 或 `icons/white-gray10/` 中正在使用的素材。测试版配置已移除，请改用上方四个正式地址之一。
+**为什么保留原配置文件名？** 为兼容已导入的彩色版地址，继续使用原文件名。四份正式配置仅引用 `icons/color-sf10/` 或 `icons/white-transparent-v2/` 中正在使用的素材。正式配置不引用测试版，请改用上方四个正式地址之一。
 
 **暂不支持什么？** 不含 H.264、HEVC 等编码徽章；不承诺识别真实编码或设备播放能力。
 
@@ -107,7 +107,7 @@ badges-no-rating.json           # 彩色 · 无评级版
 badges-white-recommend.json     # 白色 · 推荐评级版
 badges-white-no-rating.json     # 白色 · 无评级版
 icons/color-sf10/               # 彩色正式素材，24 个 SVG
-icons/white-gray10/             # 白色正式素材，24 个 SVG
+icons/white-transparent-v2/             # 白色正式素材，24 个 SVG
 previews/official-badges.svg    # 实际素材组合预览
 ```
 
